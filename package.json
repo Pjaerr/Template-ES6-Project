@@ -1,0 +1,23 @@
+{
+  "name": "template-es6-project",
+  "version": "1.0.0",
+  "description": "Template ES6 Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel dev:server",
+    "dev:server": "webpack-dev-server --hot --inline",
+    "watch": "webpack -w -d",
+    "build": "webpack -p"
+  },
+  "author": "pjaerr",
+  "license": "The Unlicense",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "npm-run-all": "^4.0.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
